@@ -1,3 +1,4 @@
+import pdb
 from datasets import load_dataset
 import pandas
 import re
@@ -6,7 +7,9 @@ import re
 def predict_label(generator):
     result = ''.join(result for result in generator)
 
+    label = None
     # Use regex to extract the label from the result string
+    pdb.set_trace()
     label_match = re.search(r"'label'\s*:\s*(\d+)", result)
     if label_match:
         label = int(label_match.group(1))
@@ -20,7 +23,11 @@ def predict_label(generator):
             if last_char.isdigit():
                 label = int(last_char)
             else:
-                label = None
+                # If the previous method fails, try to find the label using the new method
+                emotions = ["sadness", "joy", "love", "anger", "fear", "surprise"]
+                for idx, emotion in enumerate(emotions):
+                    if emotion in result:
+                        label = idx
 
     return label
 
@@ -29,7 +36,6 @@ def calculate_accuracy(predicted_labels, true_labels):
     correct_predictions = sum(p == t for p, t in zip(predicted_labels, true_labels))
     accuracy = correct_predictions / len(true_labels)
     return accuracy
-
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import os
+import pdb
 import sys
 
 import fire
@@ -33,7 +34,8 @@ def main(
         server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
         share_gradio: bool = False,
         data_path="dair-ai/emotion",  # add
-        eval_in_which_data = 'test_data',
+        eval_in_which_data='test_data',
+        report_size=50
 ):
     base_model = base_model or os.environ.get("BASE_MODEL", "")
     assert (
@@ -200,6 +202,7 @@ def main(
         input_text = row[input_column_name]
         generator = evaluate(instruction_emo, input_text)
         label = predict_label(generator)
+        pdb.set_trace()
         predicted_labels.append(label)
     # predicted_labels = [predict_label(evaluate(instruction_emo, row[input_column_name]))
     #                     for _, row in eval_in_data.iterrows()]
