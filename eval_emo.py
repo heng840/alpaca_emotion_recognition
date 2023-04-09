@@ -5,10 +5,12 @@ import fire
 import gradio as gr
 import torch
 import transformers
+from datasets import load_dataset
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 
 from utils.callbacks import Iteratorize, Stream
+from utils.predict_label import predict_label, calculate_accuracy
 from utils.prompter import Prompter
 
 if torch.cuda.is_available():
@@ -24,12 +26,14 @@ except:  # noqa: E722
 
 
 def main(
-    load_8bit: bool = False,
-    base_model: str = "",
-    lora_weights: str = "tloen/alpaca-lora-7b",
-    prompt_template: str = "",  # The prompt template to use, will default to alpaca.
-    server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
-    share_gradio: bool = False,
+        load_8bit: bool = False,
+        base_model: str = "",
+        lora_weights: str = "tloen/alpaca-lora-7b",
+        prompt_template: str = "",  # The prompt template to use, will default to alpaca.
+        server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
+        share_gradio: bool = False,
+        data_path="dair-ai/emotion",  # add
+        eval_in_which_data = 'test_data',
 ):
     base_model = base_model or os.environ.get("BASE_MODEL", "")
     assert (
@@ -85,15 +89,15 @@ def main(
         model = torch.compile(model)
 
     def evaluate(
-        instruction,
-        input=None,
-        temperature=0.1,
-        top_p=0.75,
-        top_k=40,
-        num_beams=4,
-        max_new_tokens=128,
-        stream_output=False,
-        **kwargs,
+            instruction,
+            input=None,
+            temperature=0.1,
+            top_p=0.75,
+            top_k=40,
+            num_beams=4,
+            max_new_tokens=128,
+            stream_output=False,
+            **kwargs,
     ):
         prompt = prompter.generate_prompt(instruction, input)
         inputs = tokenizer(prompt, return_tensors="pt")
@@ -157,6 +161,7 @@ def main(
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
         yield prompter.get_response(output)
+
     # for instruction in [
     #     "Tell me about alpacas.",
     #     "Tell me about the president of Mexico in 2019.",
@@ -173,13 +178,41 @@ def main(
     #     print("Response:", ''.join(result for result in generator))
     #     print()
     instruction_emo = "The input will be a text.You need to sentiment classify it. " \
-                  "There are five types of preset labels:sadness (0), joy (1), love (2), anger (3), fear (4), surprise (5)." \
-                  "Some examples looks as follows." \
-                  "'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0," \
-                  "'text': i am feeling pretty good today, 'label': 1,"
-    input_emo = "i am feeling very grateful for my life today"
-    generator = evaluate(instruction_emo, input_emo)
-    print("Response:", ''.join(result for result in generator))
+                      "There are five types of preset labels:sadness (0), joy (1), love (2), anger (3), fear (4), surprise (5)." \
+                      "Some examples looks as follows." \
+                      "'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0," \
+                      "'text': i am feeling pretty good today, 'label': 1,"
+
+    dataset = load_dataset(data_path)
+    if eval_in_which_data == 'train':
+        eval_in_data = dataset["train"].to_pandas()
+    elif eval_in_which_data == 'val':
+        eval_in_data = dataset["validation"].to_pandas()
+    else:
+        eval_in_data = dataset['test'].to_pandas()
+    input_column_name = 'text'
+    label_column_name = 'label'
+
+    # Predict labels for the dataset
+    predicted_labels = []
+
+    for _, row in eval_in_data.iterrows():
+        input_text = row[input_column_name]
+        generator = evaluate(instruction_emo, input_text)
+        label = predict_label(generator)
+        predicted_labels.append(label)
+    # predicted_labels = [predict_label(evaluate(instruction_emo, row[input_column_name]))
+    #                     for _, row in eval_in_data.iterrows()]
+
+    # Remove examples where the label prediction failed (None values)
+    filtered_df = eval_in_data[[example is not None for example in predicted_labels]]
+
+    # Extract true labels for the filtered dataset
+    true_labels = filtered_df[label_column_name].tolist()
+
+    # Calculate the accuracy rate
+    accuracy = calculate_accuracy(predicted_labels, true_labels)
+    print("Accuracy:", accuracy)
 
 
 if __name__ == "__main__":

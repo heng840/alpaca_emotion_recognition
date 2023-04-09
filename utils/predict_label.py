@@ -3,40 +3,61 @@ import pandas
 import re
 
 
-# 定义一个函数，该函数调用 evaluate 并从结果中提取标签
-def predict_label(input_text, generator):
+def predict_label(generator):
     result = ''.join(result for result in generator)
 
-    # 从结果字符串中提取标签
-    label_str = result.split("label:")[-1].strip()
-    label = int(label_str)
+    # Use regex to extract the label from the result string
+    label_match = re.search(r"'label'\s*:\s*(\d+)", result)
+    if label_match:
+        label = int(label_match.group(1))
+    else:
+        # Try to directly parse the entire result string as an integer
+        try:
+            label = int(result.strip())
+        except ValueError:
+            # Extract the last character of the result string as the label
+            last_char = result.strip()[-1]
+            if last_char.isdigit():
+                label = int(last_char)
+            else:
+                label = None
 
     return label
 
 
-def cal_acc(dataset):
-    correct_predictions = 0
-    total_predictions = 0
+def calculate_accuracy(predicted_labels, true_labels):
+    correct_predictions = sum(p == t for p, t in zip(predicted_labels, true_labels))
+    accuracy = correct_predictions / len(true_labels)
+    return accuracy
 
-    for data_point in dataset:
-        input_text = data_point["input"]
-        true_label = data_point["true_label"]
 
-        predicted_label = predict_label(input_text)
 
-        if predicted_label == true_label:
-            correct_predictions += 1
+if __name__ == "__main__":
+    dataset = load_dataset("dair-ai/emotion")
+    # Data Fields
+    # text: a string feature.
+    # label: a classification label, with possible values including:
+    # sadness (0), joy (1), love (2), anger (3), fear (4), surprise (5).
+    train_data = dataset["train"]
+    validation_data = dataset["validation"]
+    validation_df = validation_data.to_pandas()
 
-        total_predictions += 1
+    # Example dataset
+    dataset = [
+        {"input": "Text example 1", "label": 0},
+        {"input": "Text example 2", "label": 1},
+        # ...
+    ]
 
-    accuracy = correct_predictions / total_predictions
-    print(f"Accuracy: {accuracy:.2%}")
+    # Predict labels for the dataset
+    predicted_labels = [predict_label(example["input"]) for example in dataset]
 
-dataset = load_dataset("dair-ai/emotion")
-# Data Fields
-# text: a string feature.
-# label: a classification label, with possible values including:
-# sadness (0), joy (1), love (2), anger (3), fear (4), surprise (5).
-train_data = dataset["train"]
-validation_data = dataset["validation"]
-validation_df = validation_data.to_pandas()
+    # Remove examples where the label prediction failed (None values)
+    filtered_dataset = [example for example, pred_label in zip(dataset, predicted_labels) if pred_label is not None]
+
+    # Extract true labels for the filtered dataset
+    true_labels = [example["label"] for example in filtered_dataset]
+
+    # Calculate the accuracy rate
+    accuracy = calculate_accuracy(predicted_labels, true_labels)
+    print("Accuracy:", accuracy)
