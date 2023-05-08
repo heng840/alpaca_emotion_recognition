@@ -1,0 +1,1482 @@
+[
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't believe I won the lottery!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'She left me without saying goodbye.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so in love with my partner.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'This traffic jam is infuriating!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of spiders.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise party was amazing!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so lonely without my friends.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The sun is shining, and I'm feeling great!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Our wedding day was filled with love and joy.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Why did he say that? It makes me so angry!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't sleep because I'm worried about my exam.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I never expected to see you here!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I miss my family so much.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I got a promotion at work today!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm head over heels for you.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way they treated me was completely unacceptable!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I have a terrible fear of heights.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise guest made the event unforgettable.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'It's been a tough week, and I feel down.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Going on a picnic with my friends makes me happy.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My heart aches after the loss of my pet.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I am thrilled to be going on vacation next week.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Our anniversary dinner was filled with romance.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'His constant interruptions are driving me crazy.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Walking alone in the dark alley made me fearful.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I never expected such a generous gift from my boss!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm feeling blue after the end of my favorite show.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My new hobby brings me a lot of joy.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Their love for each other is truly inspiring.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't stand his arrogant attitude!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I always feel anxious before public speaking.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The twist in the movie left me speechless.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'It's hard to be away from home for so long.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic day at the amusement park.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Watching my children grow fills my heart with love.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I am livid about the service I received at that store.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid to confront my boss about the issue.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I couldn't believe my eyes when I saw the celebrity!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Losing my job has left me feeling defeated.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The weekend with my family was full of laughter and fun.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The rain is pouring, and my mood is somber.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I just finished a great workout session!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My partner's support means the world to me.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't believe he lied to me!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'There's a strange noise outside, and it's making me nervous.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Seeing my best friend after years was a delightful surprise.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't help but feel sad when I think about my mistakes.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so excited for the concert tonight!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love I feel for my family is immeasurable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The injustice of the situation makes my blood boil.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I always get scared during thunderstorms.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The unexpected plot twist left me in awe.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm feeling down after receiving some bad news.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic time at the beach today.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Our connection is so deep and meaningful.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'His constant complaints are infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm worried about my upcoming job interview.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My friends threw me a surprise birthday party!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so lost and alone in this new city.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Spending time in nature always lifts my spirits.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The bond between a mother and her child is so powerful.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way he treats me is completely unacceptable.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm frightened by the thought of losing my loved ones.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise visit from my family left me speechless.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't stop thinking about my failures and regrets.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My day has been filled with laughter and joy.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Holding hands with my partner feels so comforting.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Her rude behavior is absolutely infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of flying in airplanes.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was shocked to see my favorite artist at the event.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The grief of losing a loved one is overwhelming.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The weather is beautiful, and I feel energized.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'There's something magical about falling in love.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't stand the way he talks down to me.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I have a fear of enclosed spaces.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise vacation was the best gift I've ever received.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'It's been a rough day, and I feel disheartened.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I landed my dream job, and I couldn't be happier.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Our first dance as a married couple was pure bliss.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'His constant nagging is driving me up the wall.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm terrified of failing my exams.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Winning the raffle prize was such a pleasant surprise.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so alone and isolated these days.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'This sunny weather puts me in a great mood.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Spending time with my partner fills my heart with joy.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm absolutely furious about the way they treated me.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I get anxious when I think about the future.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'My surprise party was such a memorable event.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't help but feel sorrow when I think of what could have been.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic time at the comedy show tonight.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'There's a special bond between siblings that can't be broken.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't tolerate his rude behavior any longer.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The thought of losing my job keeps me up at night.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was pleasantly surprised by the unexpected gift.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so dejected after the breakup.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a fun-filled weekend with friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I cherish the moments spent with my loved ones.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry I could scream!'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared to drive in bad weather conditions.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I couldn't believe it when my long-lost friend showed up at my door.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened by my recent failures.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I am elated to have finished my last exam.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between a parent and child is truly special.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way she speaks to me is completely infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always nervous before a big presentation.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise inside the package was absolutely delightful.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The loss of my job has left me feeling hopeless.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so refreshed after a morning run.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Sharing a sunset with my partner is so romantic.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The constant noise from the construction site is infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel frightened when I watch horror movies alone.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise visit from my college friends made my day.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so sad and lonely without my best friend.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Today is a beautiful day, and I'm in high spirits.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so loved when my partner hugs me tight.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm fuming about the way my coworker talked to me.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I always get anxious when I have to make important decisions.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise performance at the event was incredible.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so empty after finishing the last episode of my favorite show.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to spending time with my friends this evening.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between best friends is a special kind of bond.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'It's so frustrating when my computer crashes in the middle of my work.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel scared when I think about climate change.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise ending of the book left me in shock.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so low after failing my driving test.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic time at the party last night.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel a deep sense of love and gratitude for my family.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry with myself for making that mistake.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm terrified of speaking in front of large crowds.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise guest appearance at the concert was amazing!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't help but feel down after hearing that sad song.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I just got a promotion, and I'm on cloud nine!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so much love and happiness when I'm with my partner.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way he dismissed my opinion made me furious.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of what the future holds.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was astonished by the unexpected news.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down and out after losing my job.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I am thrilled to be attending my favorite band's concert.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support from my friends is truly heartwarming.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry that they canceled my favorite show.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always afraid of making the wrong decision.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise reunion with my childhood friend was amazing.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so melancholic when I think about the past.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had an amazing time exploring the city with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I cherish the love and affection from my pet.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm infuriated by the unfair treatment I received.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I get scared when I hear strange noises at night.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was so surprised to see my favorite celebrity in person.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened after missing out on an opportunity.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The sunny weather makes me feel so happy and alive.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between my grandparents is truly inspiring.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't stand it when people are disrespectful.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of heights and always feel nervous on tall buildings.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise party for my birthday was absolutely incredible.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so sad and lonely since my best friend moved away.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so excited to be starting my new job next week.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support of my family mean the world to me.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The constant arguing is driving me insane.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel nervous when I have to speak in front of a large audience.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was absolutely shocked by the surprise ending of the movie.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't help but feel down after a long, hard day.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a great time at the picnic with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'There is so much love and warmth in our family.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm outraged by the way they handled the situation.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always scared of going to the dentist.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was stunned when I found out I won the lottery.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so heartbroken after the end of my relationship.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic day exploring the city with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between my parents is truly special and inspiring.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so mad that my favorite restaurant closed down.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I get scared when I'm home alone during a storm.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was amazed by the surprise party my friends threw for me.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so blue after hearing that my friend is moving away.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had an incredible time at the amusement park today.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love I share with my partner is truly special.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'Her constant negativity is driving me crazy.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always nervous before a big test.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise gift was exactly what I wanted!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after receiving some disappointing news.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so excited for my upcoming vacation!'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The bond between me and my siblings is unbreakable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry that my team lost the game.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of walking alone in the dark.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was astonished when I found out I was getting a promotion.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened after failing to reach my goals.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a fun weekend with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I cherish the love and support of my friends.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way she yelled at me was infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always afraid when I hear sirens in the night.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise birthday cake was absolutely delicious.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't help but feel sad when I think about lost opportunities.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so happy that I finally completed my project.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between my pet and me is so heartwarming.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm fuming about the way I was treated.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of going on roller coasters.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise performance at the party was unbelievable.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so blue after my favorite show ended.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had an amazing time at the concert last night.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so loved when I'm surrounded by my family.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The constant interruptions during the meeting were infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always nervous when I have to speak in public.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was amazed by the surprise visit from my long-lost friend.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after losing the competition.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm excited for the upcoming holiday season.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support from my friends during difficult times is invaluable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The rude customer at the store made me so angry.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm terrified of flying and get nervous before every flight.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise dinner my partner prepared was incredible.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so defeated after not getting the job I wanted.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a great time at the beach with my friends today.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so grateful for the love and support of my family.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so annoyed by the constant noise from the construction.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I get scared when I think about natural disasters.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise gift from my partner was so thoughtful.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened after hearing that sad story.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a relaxing weekend getaway.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel an immense sense of love when I hold my newborn child.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'His constant bragging is driving me nuts.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of being alone in a dark, empty house.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I was thrilled by the surprise visit from my favorite celebrity.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so low after hearing about the tragedy.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm excited to start my new workout routine.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I cherish the love and connection I share with my partner.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm infuriated by the way she constantly belittles me.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always nervous when I have to make a big decision.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise birthday party was so much fun!'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so defeated after failing to reach my goal.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a fun day at the amusement park.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between a parent and their child is truly special.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry that my package was delivered to the wrong address.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm terrified of spiders and can't stand to be near them.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise announcement at the event was so exciting.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after not making the team.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so happy that I finished all my work ahead of schedule.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support I receive from my partner is incredible.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The way he talks down to me makes me so angry.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always afraid to take risks in life.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise party for my retirement was so thoughtful.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so defeated after not getting the promotion.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a wonderful time at the family reunion.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm grateful for the love and support from my community.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm furious about the way they handled the situation.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of losing the people I love.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise concert was the best night of my life.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened after my project was rejected.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so excited for my upcoming trip to Europe.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and bond between a mother and her child is unbreakable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I can't stand the constant noise from my neighbors.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of going on a long road trip by myself.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise birthday present was perfect.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so sad after finishing a great book.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic time at the party last night.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love I feel for my family is immeasurable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry about the way my coworker treats me.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always scared before a job interview.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise proposal was so romantic and unforgettable.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after hearing about the accident.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a great weekend with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support from my spouse is truly amazing.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm furious about the rude customer service I received.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of what the future holds.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise party for my graduation was so much fun.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so dejected after getting a poor grade on my exam.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm excited to start my new hobby.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between my pets is so heartwarming.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so mad about the unfair treatment I received.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of heights and can't go near the edge.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise baby shower was so lovely.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so defeated after not reaching my fitness goals.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a great time at the music festival this weekend.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel such a strong love for my children.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm infuriated by the constant traffic jams in the city.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of losing my job in this unstable economy.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise reunion with my college friends was amazing.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after watching that sad movie.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm looking forward to a fun night out with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and support I get from my partner is invaluable.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The constant arguing between my coworkers is infuriating.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm scared of the dark and always sleep with a nightlight.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise visit from my family was so heartwarming.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so dejected after my project was turned down.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a fantastic time at the art exhibition today.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel a deep sense of love and connection with my friends.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry that I missed my flight.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm always afraid of failing in my career.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise vacation my partner planned was absolutely amazing.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so disheartened after not getting the recognition I deserved.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so excited for my new job opportunity.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love and care my parents have shown me is truly special.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm furious about the lack of respect I received.'",
+        "output": "3"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm afraid of making the wrong decision in life.'",
+        "output": "4"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The surprise gift was exactly what I've always wanted.'",
+        "output": "5"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I feel so down after my favorite character died in the show.'",
+        "output": "0"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I had a wonderful day exploring the city with my friends.'",
+        "output": "1"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'The love between my grandparents is truly inspiring.'",
+        "output": "2"
+    },
+    {
+        "instruction": "The input will be a text. You need to sentiment classify it. There are five types of preset labels: sadness (0), joy (1), love (2), anger (3), fear (4 ), surprise (5). Some examples looks as follows: 'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0, 'text': i am feeling pretty good today, 'label': 1,",
+        "input": "'I'm so angry about the constant construction noise.'",
+        "output": "3"
+    }
+]

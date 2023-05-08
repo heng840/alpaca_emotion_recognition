@@ -1,0 +1,296 @@
+'text': 'I can't believe I won the lottery!', 'label': 1
+'text': 'She left me without saying goodbye.', 'label': 0
+'text': 'I'm so in love with my partner.', 'label': 2
+'text': 'This traffic jam is infuriating!', 'label': 3
+'text': 'I'm scared of spiders.', 'label': 4
+'text': 'The surprise party was amazing!', 'label': 5
+'text': 'I feel so lonely without my friends.', 'label': 0
+'text': 'The sun is shining, and I'm feeling great!', 'label': 1
+'text': 'Our wedding day was filled with love and joy.', 'label': 2
+'text': 'Why did he say that? It makes me so angry!', 'label': 3
+'text': 'I can't sleep because I'm worried about my exam.', 'label': 4
+'text': 'I never expected to see you here!', 'label': 5
+'text': 'I miss my family so much.', 'label': 0
+'text': 'I got a promotion at work today!', 'label': 1
+'text': 'I'm head over heels for you.', 'label': 2
+'text': 'The way they treated me was completely unacceptable!', 'label': 3
+'text': 'I have a terrible fear of heights.', 'label': 4
+'text': 'The surprise guest made the event unforgettable.', 'label': 5
+'text': 'It's been a tough week, and I feel down.', 'label': 0
+'text': 'Going on a picnic with my friends makes me happy.', 'label': 1
+'text': 'My heart aches after the loss of my pet.', 'label': 0
+'text': 'I am thrilled to be going on vacation next week.', 'label': 1
+'text': 'Our anniversary dinner was filled with romance.', 'label': 2
+'text': 'His constant interruptions are driving me crazy.', 'label': 3
+'text': 'Walking alone in the dark alley made me fearful.', 'label': 4
+'text': 'I never expected such a generous gift from my boss!', 'label': 5
+'text': 'I'm feeling blue after the end of my favorite show.', 'label': 0
+'text': 'My new hobby brings me a lot of joy.', 'label': 1
+'text': 'Their love for each other is truly inspiring.', 'label': 2
+'text': 'I can't stand his arrogant attitude!', 'label': 3
+'text': 'I always feel anxious before public speaking.', 'label': 4
+'text': 'The twist in the movie left me speechless.', 'label': 5
+'text': 'It's hard to be away from home for so long.', 'label': 0
+'text': 'I had a fantastic day at the amusement park.', 'label': 1
+'text': 'Watching my children grow fills my heart with love.', 'label': 2
+'text': 'I am livid about the service I received at that store.', 'label': 3
+'text': 'I'm afraid to confront my boss about the issue.', 'label': 4
+'text': 'I couldn't believe my eyes when I saw the celebrity!', 'label': 5
+'text': 'Losing my job has left me feeling defeated.', 'label': 0
+'text': 'The weekend with my family was full of laughter and fun.', 'label': 1
+'text': 'The rain is pouring, and my mood is somber.', 'label': 0
+'text': 'I just finished a great workout session!', 'label': 1
+'text': 'My partner's support means the world to me.', 'label': 2
+'text': 'I can't believe he lied to me!', 'label': 3
+'text': 'There's a strange noise outside, and it's making me nervous.', 'label': 4
+'text': 'Seeing my best friend after years was a delightful surprise.', 'label': 5
+'text': 'I can't help but feel sad when I think about my mistakes.', 'label': 0
+'text': 'I'm so excited for the concert tonight!', 'label': 1
+'text': 'The love I feel for my family is immeasurable.', 'label': 2
+'text': 'The injustice of the situation makes my blood boil.', 'label': 3
+'text': 'I always get scared during thunderstorms.', 'label': 4
+'text': 'The unexpected plot twist left me in awe.', 'label': 5
+'text': 'I'm feeling down after receiving some bad news.', 'label': 0
+'text': 'I had a fantastic time at the beach today.', 'label': 1
+'text': 'Our connection is so deep and meaningful.', 'label': 2
+'text': 'His constant complaints are infuriating.', 'label': 3
+'text': 'I'm worried about my upcoming job interview.', 'label': 4
+'text': 'My friends threw me a surprise birthday party!', 'label': 5
+'text': 'I feel so lost and alone in this new city.', 'label': 0
+'text': 'Spending time in nature always lifts my spirits.', 'label': 1
+'text': 'The bond between a mother and her child is so powerful.', 'label': 2
+'text': 'The way he treats me is completely unacceptable.', 'label': 3
+'text': 'I'm frightened by the thought of losing my loved ones.', 'label': 4
+'text': 'The surprise visit from my family left me speechless.', 'label': 5
+'text': 'I can't stop thinking about my failures and regrets.', 'label': 0
+'text': 'My day has been filled with laughter and joy.', 'label': 1
+'text': 'Holding hands with my partner feels so comforting.', 'label': 2
+'text': 'Her rude behavior is absolutely infuriating.', 'label': 3
+'text': 'I'm scared of flying in airplanes.', 'label': 4
+'text': 'I was shocked to see my favorite artist at the event.', 'label': 5
+'text': 'The grief of losing a loved one is overwhelming.', 'label': 0
+'text': 'The weather is beautiful, and I feel energized.', 'label': 1
+'text': 'There's something magical about falling in love.', 'label': 2
+'text': 'I can't stand the way he talks down to me.', 'label': 3
+'text': 'I have a fear of enclosed spaces.', 'label': 4
+'text': 'The surprise vacation was the best gift I've ever received.', 'label': 5
+'text': 'It's been a rough day, and I feel disheartened.', 'label': 0
+'text': 'I landed my dream job, and I couldn't be happier.', 'label': 1
+'text': 'Our first dance as a married couple was pure bliss.', 'label': 2
+'text': 'His constant nagging is driving me up the wall.', 'label': 3
+'text': 'I'm terrified of failing my exams.', 'label': 4
+'text': 'Winning the raffle prize was such a pleasant surprise.', 'label': 5
+'text': 'I feel so alone and isolated these days.', 'label': 0
+'text': 'This sunny weather puts me in a great mood.', 'label': 1
+'text': 'Spending time with my partner fills my heart with joy.', 'label': 2
+'text': 'I'm absolutely furious about the way they treated me.', 'label': 3
+'text': 'I get anxious when I think about the future.', 'label': 4
+'text': 'My surprise party was such a memorable event.', 'label': 5
+'text': 'I can't help but feel sorrow when I think of what could have been.', 'label': 0
+'text': 'I had a fantastic time at the comedy show tonight.', 'label': 1
+'text': 'There's a special bond between siblings that can't be broken.', 'label': 2
+'text': 'I can't tolerate his rude behavior any longer.', 'label': 3
+'text': 'The thought of losing my job keeps me up at night.', 'label': 4
+'text': 'I was pleasantly surprised by the unexpected gift.', 'label': 5
+'text': 'I feel so dejected after the breakup.', 'label': 0
+'text': 'I'm looking forward to a fun-filled weekend with friends.', 'label': 1
+'text': 'I cherish the moments spent with my loved ones.', 'label': 2
+'text': 'I'm so angry I could scream!', 'label': 3
+'text': 'I'm scared to drive in bad weather conditions.', 'label': 4
+'text': 'I couldn't believe it when my long-lost friend showed up at my door.', 'label': 5
+'text': 'I feel so disheartened by my recent failures.', 'label': 0
+'text': 'I am elated to have finished my last exam.', 'label': 1
+'text': 'The love between a parent and child is truly special.', 'label': 2
+'text': 'The way she speaks to me is completely infuriating.', 'label': 3
+'text': 'I'm always nervous before a big presentation.', 'label': 4
+'text': 'The surprise inside the package was absolutely delightful.', 'label': 5
+'text': 'The loss of my job has left me feeling hopeless.', 'label': 0
+'text': 'I feel so refreshed after a morning run.', 'label': 1
+'text': 'Sharing a sunset with my partner is so romantic.', 'label': 2
+'text': 'The constant noise from the construction site is infuriating.', 'label': 3
+'text': 'I feel frightened when I watch horror movies alone.', 'label': 4
+'text': 'The surprise visit from my college friends made my day.', 'label': 5
+'text': 'I feel so sad and lonely without my best friend.', 'label': 0
+'text': 'Today is a beautiful day, and I'm in high spirits.', 'label': 1
+'text': 'I feel so loved when my partner hugs me tight.', 'label': 2
+'text': 'I'm fuming about the way my coworker talked to me.', 'label': 3
+'text': 'I always get anxious when I have to make important decisions.', 'label': 4
+'text': 'The surprise performance at the event was incredible.', 'label': 5
+'text': 'I feel so empty after finishing the last episode of my favorite show.', 'label': 0
+'text': 'I'm looking forward to spending time with my friends this evening.', 'label': 1
+'text': 'The love between best friends is a special kind of bond.', 'label': 2
+'text': 'It's so frustrating when my computer crashes in the middle of my work.', 'label': 3
+'text': 'I feel scared when I think about climate change.', 'label': 4
+'text': 'The surprise ending of the book left me in shock.', 'label': 5
+'text': 'I feel so low after failing my driving test.', 'label': 0
+'text': 'I had a fantastic time at the party last night.', 'label': 1
+'text': 'I feel a deep sense of love and gratitude for my family.', 'label': 2
+'text': 'I'm so angry with myself for making that mistake.', 'label': 3
+'text': 'I'm terrified of speaking in front of large crowds.', 'label': 4
+'text': 'The surprise guest appearance at the concert was amazing!', 'label': 5
+'text': 'I can't help but feel down after hearing that sad song.', 'label': 0
+'text': 'I just got a promotion, and I'm on cloud nine!', 'label': 1
+'text': 'I feel so much love and happiness when I'm with my partner.', 'label': 2
+'text': 'The way he dismissed my opinion made me furious.', 'label': 3
+'text': 'I'm scared of what the future holds.', 'label': 4
+'text': 'I was astonished by the unexpected news.', 'label': 5
+'text': 'I feel so down and out after losing my job.', 'label': 0
+'text': 'I am thrilled to be attending my favorite band's concert.', 'label': 1
+'text': 'The love and support from my friends is truly heartwarming.', 'label': 2
+'text': 'I'm so angry that they canceled my favorite show.', 'label': 3
+'text': 'I'm always afraid of making the wrong decision.', 'label': 4
+'text': 'The surprise reunion with my childhood friend was amazing.', 'label': 5
+'text': 'I feel so melancholic when I think about the past.', 'label': 0
+'text': 'I had an amazing time exploring the city with my friends.', 'label': 1
+'text': 'I cherish the love and affection from my pet.', 'label': 2
+'text': 'I'm infuriated by the unfair treatment I received.', 'label': 3
+'text': 'I get scared when I hear strange noises at night.', 'label': 4
+'text': 'I was so surprised to see my favorite celebrity in person.', 'label': 5
+'text': 'I feel so disheartened after missing out on an opportunity.', 'label': 0
+'text': 'The sunny weather makes me feel so happy and alive.', 'label': 1
+'text': 'The love between my grandparents is truly inspiring.', 'label': 2
+'text': 'I can't stand it when people are disrespectful.', 'label': 3
+'text': 'I'm afraid of heights and always feel nervous on tall buildings.', 'label': 4
+'text': 'The surprise party for my birthday was absolutely incredible.', 'label': 5
+'text': 'I feel so sad and lonely since my best friend moved away.', 'label': 0
+'text': 'I'm so excited to be starting my new job next week.', 'label': 1
+'text': 'The love and support of my family mean the world to me.', 'label': 2
+'text': 'The constant arguing is driving me insane.', 'label': 3
+'text': 'I feel nervous when I have to speak in front of a large audience.', 'label': 4
+'text': 'I was absolutely shocked by the surprise ending of the movie.', 'label': 5
+'text': 'I can't help but feel down after a long, hard day.', 'label': 0
+'text': 'I had a great time at the picnic with my friends.', 'label': 1
+'text': 'There is so much love and warmth in our family.', 'label': 2
+'text': 'I'm outraged by the way they handled the situation.', 'label': 3
+'text': 'I'm always scared of going to the dentist.', 'label': 4
+'text': 'I was stunned when I found out I won the lottery.', 'label': 5
+'text': 'I feel so heartbroken after the end of my relationship.', 'label': 0
+'text': 'I had a fantastic day exploring the city with my friends.', 'label': 1
+'text': 'The love between my parents is truly special and inspiring.', 'label': 2
+'text': 'I'm so mad that my favorite restaurant closed down.', 'label': 3
+'text': 'I get scared when I'm home alone during a storm.', 'label': 4
+'text': 'I was amazed by the surprise party my friends threw for me.', 'label': 5
+'text': 'I feel so blue after hearing that my friend is moving away.', 'label': 0
+'text': 'I had an incredible time at the amusement park today.', 'label': 1
+'text': 'The love I share with my partner is truly special.', 'label': 2
+'text': 'Her constant negativity is driving me crazy.', 'label': 3
+'text': 'I'm always nervous before a big test.', 'label': 4
+'text': 'The surprise gift was exactly what I wanted!', 'label': 5
+'text': 'I feel so down after receiving some disappointing news.', 'label': 0
+'text': 'I'm so excited for my upcoming vacation!', 'label': 1
+'text': 'The bond between me and my siblings is unbreakable.', 'label': 2
+'text': 'I'm so angry that my team lost the game.', 'label': 3
+'text': 'I'm scared of walking alone in the dark.', 'label': 4
+'text': 'I was astonished when I found out I was getting a promotion.', 'label': 5
+'text': 'I feel so disheartened after failing to reach my goals.', 'label': 0
+'text': 'I'm looking forward to a fun weekend with my friends.', 'label': 1
+'text': 'I cherish the love and support of my friends.', 'label': 2
+'text': 'The way she yelled at me was infuriating.', 'label': 3
+'text': 'I'm always afraid when I hear sirens in the night.', 'label': 4
+'text': 'The surprise birthday cake was absolutely delicious.', 'label': 5
+'text': 'I can't help but feel sad when I think about lost opportunities.', 'label': 0
+'text': 'I'm so happy that I finally completed my project.', 'label': 1
+'text': 'The love between my pet and me is so heartwarming.', 'label': 2
+'text': 'I'm fuming about the way I was treated.', 'label': 3
+'text': 'I'm scared of going on roller coasters.', 'label': 4
+'text': 'The surprise performance at the party was unbelievable.', 'label': 5
+'text': 'I feel so blue after my favorite show ended.', 'label': 0
+'text': 'I had an amazing time at the concert last night.', 'label': 1
+'text': 'I feel so loved when I'm surrounded by my family.', 'label': 2
+'text': 'The constant interruptions during the meeting were infuriating.', 'label': 3
+'text': 'I'm always nervous when I have to speak in public.', 'label': 4
+'text': 'I was amazed by the surprise visit from my long-lost friend.', 'label': 5
+'text': 'I feel so down after losing the competition.', 'label': 0
+'text': 'I'm excited for the upcoming holiday season.', 'label': 1
+'text': 'The love and support from my friends during difficult times is invaluable.', 'label': 2
+'text': 'The rude customer at the store made me so angry.', 'label': 3
+'text': 'I'm terrified of flying and get nervous before every flight.', 'label': 4
+'text': 'The surprise dinner my partner prepared was incredible.', 'label': 5
+'text': 'I feel so defeated after not getting the job I wanted.', 'label': 0
+'text': 'I had a great time at the beach with my friends today.', 'label': 1
+'text': 'I feel so grateful for the love and support of my family.', 'label': 2
+'text': 'I'm so annoyed by the constant noise from the construction.', 'label': 3
+'text': 'I get scared when I think about natural disasters.', 'label': 4
+'text': 'The surprise gift from my partner was so thoughtful.', 'label': 5
+'text': 'I feel so disheartened after hearing that sad story.', 'label': 0
+'text': 'I'm looking forward to a relaxing weekend getaway.', 'label': 1
+'text': 'I feel an immense sense of love when I hold my newborn child.', 'label': 2
+'text': 'His constant bragging is driving me nuts.', 'label': 3
+'text': 'I'm afraid of being alone in a dark, empty house.', 'label': 4
+'text': 'I was thrilled by the surprise visit from my favorite celebrity.', 'label': 5
+'text': 'I feel so low after hearing about the tragedy.', 'label': 0
+'text': 'I'm excited to start my new workout routine.', 'label': 1
+'text': 'I cherish the love and connection I share with my partner.', 'label': 2
+'text': 'I'm infuriated by the way she constantly belittles me.', 'label': 3
+'text': 'I'm always nervous when I have to make a big decision.', 'label': 4
+'text': 'The surprise birthday party was so much fun!', 'label': 5
+'text': 'I feel so defeated after failing to reach my goal.', 'label': 0
+'text': 'I'm looking forward to a fun day at the amusement park.', 'label': 1
+'text': 'The love between a parent and their child is truly special.', 'label': 2
+'text': 'I'm so angry that my package was delivered to the wrong address.', 'label': 3
+'text': 'I'm terrified of spiders and can't stand to be near them.', 'label': 4
+'text': 'The surprise announcement at the event was so exciting.', 'label': 5
+'text': 'I feel so down after not making the team.', 'label': 0
+'text': 'I'm so happy that I finished all my work ahead of schedule.', 'label': 1
+'text': 'The love and support I receive from my partner is incredible.', 'label': 2
+'text': 'The way he talks down to me makes me so angry.', 'label': 3
+'text': 'I'm always afraid to take risks in life.', 'label': 4
+'text': 'The surprise party for my retirement was so thoughtful.', 'label': 5
+'text': 'I feel so defeated after not getting the promotion.', 'label': 0
+'text': 'I had a wonderful time at the family reunion.', 'label': 1
+'text': 'I'm grateful for the love and support from my community.', 'label': 2
+'text': 'I'm furious about the way they handled the situation.', 'label': 3
+'text': 'I'm scared of losing the people I love.', 'label': 4
+'text': 'The surprise concert was the best night of my life.', 'label': 5
+'text': 'I feel so disheartened after my project was rejected.', 'label': 0
+'text': 'I'm so excited for my upcoming trip to Europe.', 'label': 1
+'text': 'The love and bond between a mother and her child is unbreakable.', 'label': 2
+'text': 'I can't stand the constant noise from my neighbors.', 'label': 3
+'text': 'I'm afraid of going on a long road trip by myself.', 'label': 4
+'text': 'The surprise birthday present was perfect.', 'label': 5
+'text': 'I feel so sad after finishing a great book.', 'label': 0
+'text': 'I had a fantastic time at the party last night.', 'label': 1
+'text': 'The love I feel for my family is immeasurable.', 'label': 2
+'text': 'I'm so angry about the way my coworker treats me.', 'label': 3
+'text': 'I'm always scared before a job interview.', 'label': 4
+'text': 'The surprise proposal was so romantic and unforgettable.', 'label': 5
+'text': 'I feel so down after hearing about the accident.', 'label': 0
+'text': 'I'm looking forward to a great weekend with my friends.', 'label': 1
+'text': 'The love and support from my spouse is truly amazing.', 'label': 2
+'text': 'I'm furious about the rude customer service I received.', 'label': 3
+'text': 'I'm afraid of what the future holds.', 'label': 4
+'text': 'The surprise party for my graduation was so much fun.', 'label': 5
+'text': 'I feel so dejected after getting a poor grade on my exam.', 'label': 0
+'text': 'I'm excited to start my new hobby.', 'label': 1
+'text': 'The love between my pets is so heartwarming.', 'label': 2
+'text': 'I'm so mad about the unfair treatment I received.', 'label': 3
+'text': 'I'm scared of heights and can't go near the edge.', 'label': 4
+'text': 'The surprise baby shower was so lovely.', 'label': 5
+'text': 'I feel so defeated after not reaching my fitness goals.', 'label': 0
+'text': 'I had a great time at the music festival this weekend.', 'label': 1
+'text': 'I feel such a strong love for my children.', 'label': 2
+'text': 'I'm infuriated by the constant traffic jams in the city.', 'label': 3
+'text': 'I'm afraid of losing my job in this unstable economy.', 'label': 4
+'text': 'The surprise reunion with my college friends was amazing.', 'label': 5
+'text': 'I feel so down after watching that sad movie.', 'label': 0
+'text': 'I'm looking forward to a fun night out with my friends.', 'label': 1
+'text': 'The love and support I get from my partner is invaluable.', 'label': 2
+'text': 'The constant arguing between my coworkers is infuriating.', 'label': 3
+'text': 'I'm scared of the dark and always sleep with a nightlight.', 'label': 4
+'text': 'The surprise visit from my family was so heartwarming.', 'label': 5
+'text': 'I feel so dejected after my project was turned down.', 'label': 0
+'text': 'I had a fantastic time at the art exhibition today.', 'label': 1
+'text': 'I feel a deep sense of love and connection with my friends.', 'label': 2
+'text': 'I'm so angry that I missed my flight.', 'label': 3
+'text': 'I'm always afraid of failing in my career.', 'label': 4
+'text': 'The surprise vacation my partner planned was absolutely amazing.', 'label': 5
+'text': 'I feel so disheartened after not getting the recognition I deserved.', 'label': 0
+'text': 'I'm so excited for my new job opportunity.', 'label': 1
+'text': 'The love and care my parents have shown me is truly special.', 'label': 2
+'text': 'I'm furious about the lack of respect I received.', 'label': 3
+'text': 'I'm afraid of making the wrong decision in life.', 'label': 4
+'text': 'The surprise gift was exactly what I've always wanted.', 'label': 5
+'text': 'I feel so down after my favorite character died in the show.', 'label': 0
+'text': 'I had a wonderful day exploring the city with my friends.', 'label': 1
+'text': 'The love between my grandparents is truly inspiring.', 'label': 2
+'text': 'I'm so angry about the constant construction noise.', 'label': 3

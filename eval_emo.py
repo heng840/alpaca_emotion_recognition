@@ -196,16 +196,17 @@ def main(
     label_column_name = 'label'
 
     # Predict labels for the dataset
-    predicted_labels = []
-
-    for _, row in eval_in_data.iterrows():
-        input_text = row[input_column_name]
-        generator = evaluate(instruction_emo, input_text)
-        label = predict_label(generator)
-        pdb.set_trace()
-        predicted_labels.append(label)
-    # predicted_labels = [predict_label(evaluate(instruction_emo, row[input_column_name]))
-    #                     for _, row in eval_in_data.iterrows()]
+    # predicted_labels = []
+    #
+    # for _, row in eval_in_data.iterrows():
+    #     input_text = row[input_column_name]
+    #     generator = evaluate(instruction_emo, input_text)
+    #     label = predict_label(generator)
+    #     print('label:', label)
+    #     pdb.set_trace()
+    #     predicted_labels.append(label)
+    predicted_labels = [predict_label(evaluate(instruction_emo, row[input_column_name]))
+                        for _, row in eval_in_data.iterrows()]
 
     # Remove examples where the label prediction failed (None values)
     filtered_df = eval_in_data[[example is not None for example in predicted_labels]]

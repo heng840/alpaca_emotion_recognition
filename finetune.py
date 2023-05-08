@@ -27,8 +27,8 @@ from utils.prompter import Prompter
 
 def train(
     # model/data params
-    base_model: str = "",  # the only required argument
-    data_path: str = "yahma/alpaca-cleaned",
+    base_model: str = "decapoda-research/llama-7b-hf",  # the only required argument
+    data_path: str = "alpaca_data/GPT_emotion_data.json",
     output_dir: str = "./lora-alpaca",
     # training hyperparams
     batch_size: int = 128,
@@ -36,7 +36,7 @@ def train(
     num_epochs: int = 3,
     learning_rate: float = 3e-4,
     cutoff_len: int = 256,
-    val_set_size: int = 2000,
+    val_set_size: int = 100,
     # lora hyperparams
     lora_r: int = 8,
     lora_alpha: int = 16,
@@ -47,6 +47,7 @@ def train(
     ],
     # llm hyperparams
     train_on_inputs: bool = True,  # if False, masks out inputs in loss
+    train_on_one_task: bool = True, # add
     group_by_length: bool = False,  # faster, but produces an odd training loss curve
     # wandb params
     wandb_project: str = "",
@@ -144,11 +145,23 @@ def train(
         return result
 
     def generate_and_tokenize_prompt(data_point):
+        # if not train_on_one_task:
         full_prompt = prompter.generate_prompt(
             data_point["instruction"],
             data_point["input"],
             data_point["output"],
         )
+        # else:
+        #     instruction = "The input will be a text.You need to sentiment classify it. " \
+        #               "There are five types of preset labels:sadness (0), joy (1), love (2), anger (3), fear (4), surprise (5)." \
+        #               "Some examples looks as follows." \
+        #               "'text': 'im feeling quite sad and sorry for myself but ill snap out of it soon','label': 0," \
+        #               "'text': i am feeling pretty good today, 'label': 1,"
+        #     full_prompt = prompter.generate_prompt(
+        #         instruction,
+        #         data_point["input"],
+        #         data_point["output"],
+        #     )
         tokenized_full_prompt = tokenize(full_prompt)
         if not train_on_inputs:
             user_prompt = prompter.generate_prompt(

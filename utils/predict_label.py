@@ -6,10 +6,10 @@ import re
 
 def predict_label(generator):
     result = ''.join(result for result in generator)
-
+    # print('result:', result)
     label = None
     # Use regex to extract the label from the result string
-    pdb.set_trace()
+    # pdb.set_trace()
     label_match = re.search(r"'label'\s*:\s*(\d+)", result)
     if label_match:
         label = int(label_match.group(1))
